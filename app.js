@@ -26,6 +26,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.get('/profile', routes.show);
 app.get('/', routes.index);
 app.get('/:name', routes.user);
 
