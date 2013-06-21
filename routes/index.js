@@ -1,8 +1,15 @@
+//Database
+var Users = require('../model/db');
 
-/*
- * GET home page.
- */
-
+//Routes
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  Users.find({}, function(err, doc) {
+    if (err) {
+      return err
+    }
+    else {
+      console.log(doc);
+      res.render('index', {users: doc});
+    }
+  });
 };
