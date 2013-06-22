@@ -25,14 +25,26 @@ exports.show = function(req, res){
 };
 
 exports.user = function(req, res){
-  Users.findOne({name: req.params.name}, function(err, doc) {
+  Users.findOne({'name': req.params.name}, function(err, doc) {
     if (err) {
       return(err);
     }
     else {
-      res.render('user', {user: doc});
+      Users.where('email').in(doc.friends).exec(function(err2, doc2){
+        if (err2) {
+          return(err2);
+        }
+        else {
+          res.render('user', {user:doc, friends: doc2});
+        }
+      }
+     )
     }
   });
+};
+
+exports.home = function(req, res){
+  res.render('home');
 };
 
 //create new model

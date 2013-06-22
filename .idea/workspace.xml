@@ -6,13 +6,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371807946552" ignored="false" />
     <file path="/index.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371820254622" ignored="false" />
-    <file path="/app.js" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371824817711" ignored="false" />
+    <file path="/app.js" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371911649771" ignored="false" />
     <file path="/db.js" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371839760798" ignored="false" />
-    <file path="/index.js" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371825153090" ignored="false" />
-    <file path="/user.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371840730663" ignored="false" />
-    <file path="/layout.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371824103107" ignored="false" />
+    <file path="/index.js" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371911663880" ignored="false" />
+    <file path="/user.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371903746843" ignored="false" />
+    <file path="/layout.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371911044345" ignored="false" />
     <file path="/update.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371823253552" ignored="false" />
     <file path="/profile.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371825164969" ignored="false" />
+    <file path="/login.jade" changelist="2f7d75ac-e810-4a9c-b530-ee8efc555e2f" time="1371911362506" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="62" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+            <state line="31" column="26" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +45,16 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="17" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+            <state line="46" column="21" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +63,7 @@
       <file leaf-file-name="user.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/user.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="8" column="18" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +72,7 @@
       <file leaf-file-name="db.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="358" selection-end="358" vertical-scroll-proportion="0.29069766">
+            <state line="15" column="51" selection-start="385" selection-end="385" vertical-scroll-proportion="0.29069766">
               <folding />
             </state>
           </provider>
@@ -71,7 +81,16 @@
       <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="12" column="17" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,12 +109,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/update.jade" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/profile.jade" />
         <option value="$PROJECT_DIR$/model/db.js" />
         <option value="$PROJECT_DIR$/views/user.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/views/login.jade" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -362,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="99" selection-end="99" vertical-scroll-proportion="0.09689923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="21" selection-start="109" selection-end="109" vertical-scroll-proportion="0.1">
@@ -376,37 +389,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/user.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
+        <state line="8" column="18" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="21" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="26" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="358" selection-end="358" vertical-scroll-proportion="0.29069766">
+        <state line="15" column="51" selection-start="385" selection-end="385" vertical-scroll-proportion="0.29069766">
           <folding />
         </state>
       </provider>

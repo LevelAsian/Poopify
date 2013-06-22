@@ -5,4 +5,5 @@ block content
   p #{user.status}
   br
   h3 FRIENDS:
-  p #{user.friends[1]}
+  for friend in friends
+    p= friend.name

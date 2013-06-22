@@ -27,8 +27,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/profile', routes.show);
-app.get('/', routes.index);
+app.get('/friends', routes.index);
 app.get('/:name', routes.user);
+app.get('/', routes.home);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
