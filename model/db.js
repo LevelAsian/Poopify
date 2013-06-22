@@ -8,7 +8,8 @@ var db = mongoose.connect('mongodb://admin:admin@ds031618.mongolab.com:31618/her
 var userSchema = new mongoose.Schema({
   name: String,
   email: String,
-  status: String
+  status: String,
+  friends: []
 });
 
 //compile schema to model
